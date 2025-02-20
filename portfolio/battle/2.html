@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Battle 2</title>
+
+	<style>
+	*{
+	    margin: 0;
+	  }
+	body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	}
+
+  .main div{
+    width: 50px;
+    height: 50px;
+    background: #fdc57b;
+    position: absolute;
+  }
+
+  .main div:first-child{
+    top: 50px;
+    left: 50px;
+  }
+
+    .main div:last-child{
+    top: 50px;
+    right: 50px;
+  }
+
+    .main div:nth-child(2){
+    bottom: 50px;
+    right: 50px;
+  }
+
+     .main div:nth-child(3){
+    bottom: 50px;
+    left: 50px;
+  }
+  
+  .main{
+    width: 400px;
+    height: 300px;
+    background: #62374e;
+    position: relative;
+  }
+
+  </style>
+</head>
+<body>
+<div class='main'>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+      
+
+</body>
+</html>
